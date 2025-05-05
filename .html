@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Express Annex Business</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #2b3a55;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header img {
+      height: 50px;
+      vertical-align: middle;
+    }
+    nav {
+      background: #3c4c6c;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2b3a55;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 200px;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2b3a55;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="express-logo.png" alt="Express Annex Logo" />
+    <h1>Express Annex Business</h1>
+    <p>Bookshop & Documentation Services at Your Doorstep</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Express Annex</h2>
+    <p>We deliver books and handle your documentation needs with speed and professionalism.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Book Sales (Academic, Professional, Personal)</li>
+      <li>Document Typing & Printing</li>
+      <li>Scanning & Photocopying</li>
+      <li>Home Delivery for All Orders</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="book1.jpg" alt="Books on shelf">
+      <img src="book2.jpg" alt="Document printing">
+      <img src="book3.jpg" alt="Educational materials">
+      <img src="book4.jpg" alt="Notebooks and study guides">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Express Annex Business is a dedicated service provider focused on making access to books and documentation easier. Whether it's a school project or official paperwork, we're here to help—fast and efficiently.</p>
+    <p><strong>Location:</strong> Wum, Cameroon</p>
+    <p><strong>CEO:</strong> Qwala Miriam Kangsen</p>
+    <p><strong>Business Hours:</strong> Mon–Sat, 8:00am – 6:00pm</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formsubmit.co/glenabang6@gmail.com" method="POST">
+      <label>Name:</label><br />
+      <input type="text" name="name" required><br />
+      <label>Email:</label><br />
+      <input type="email" name="email" required><br />
+      <label>Message:</label><br />
+      <textarea name="message" rows="4" required></textarea><br />
+      <button type="submit">Send Message</button>
+    </form>
+    <p><strong>Phone:</strong> +237 675601342, 675978299</p>
+    <p><strong>Email:</strong> glenabang6@gmail.com</p>
+    <p><strong>Location:</strong> Wum, Cameroon</p>
+    <iframe
+      src="https://www.google.com/maps?q=Wum+Cameroon&output=embed"
+      width="100%"
+      height="300"
+      style="border:0; margin-top: 1rem;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Express Annex Business. All rights reserved.</p>
+    <p>Follow us:
+      <a href="https://facebook.com" target="_blank">Facebook</a> |
+      <a href="https://wa.me/237675601342" target="_blank">WhatsApp</a>
+    </p>
+  </footer>
+
+</body>
+</html>
